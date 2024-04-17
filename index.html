@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Store Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleaapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="image/apple.png" width="50px" height="50px" />
+          </div>
+          <aside id="menuItems">
+          <nav>
+            <ul id="menuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Acount</a></li>
+            </ul>
+          </nav>
+          </aside>
+              <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+              <a href="#" class="menu-toggle" onclick="menutoggle()">
+               <i class="fa-solid fa-bars"></i>
+              </a>
+            </ul>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Store. The best way to buy the products you love.</h1>
+            <p>Feel The Difference.</p>
+            <a href="" class="btn">explore products &#8594;</a>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured categories -->
+    <div class="categories">
+      <div class="slider-wrapper">
+        <div class="image-list-container">
+          <div class="image-list">
+            <img src="image/12 all warna.jpeg" alt="img-1" class="image-item" />
+            <img
+              src="image/12pro all warna.jpeg"
+              alt="img-2"
+              class="image-item"
+            />
+            <img src="image/13 all warna.jpeg" alt="img-3" class="image-item" />
+            <img
+              src="image/13pro all warna.jpeg"
+              alt="img-4"
+              class="image-item"
+            />
+            <img
+              src="image/15pro all warna.jpeg"
+              alt="img-5"
+              class="image-item"
+            />
+            <img src="image/ipadprogrey.jpg" alt="img-6" class="image-item" />
+            <img
+              src="image/ipad 10 all warna.jpeg"
+              alt="img-7"
+              class="image-item"
+            />
+            <img
+              src="image/ipadmini all warna.jpeg"
+              alt="img-8"
+              class="image-item"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="slider-scrollbar">
+        <div class="scroll-track">
+          <div class="scrollbar-thumb"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured products -->
+    <div class="small-container">
+      <h2 class="tittle">Iphone Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="image/bang.jpeg" />
+          <h4>Iphone 12</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$699</p>
+        </div>
+        <div class="col-4">
+          <img src="image/12pro all warna.jpeg" />
+          <h4>Iphone 12 Pro</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$780</p>
+        </div>
+        <div class="col-4">
+          <img src="image/13 all warna.jpeg" />
+          <h4>Iphone 13</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$799-$950</p>
+        </div>
+        <div class="col-4">
+          <img src="image/14allwarna.jpg" />
+          <h4>Iphone 14</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$799-$899</p>
+        </div>
+        <div class="col-4">
+          <img src="image/15allwarna.jpeg" />
+          <h4>Iphone 15</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$799-$1199</p>
+        </div>
+      </div>
+
+         <!-- ipad products -->
+      <h2 class="tittle">Ipad Products</h2>
+      <div class="row">
+    <div class="small-container">
+        <div class="col-4">
+          <img src="image/ipadprogrey.jpg" />
+          <h4>Ipad Pro Chip M1</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$1500</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ipadairblue.jpg" />
+          <h4>Ipad air</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$769</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ipad 10 all warna.jpeg" />
+          <h4>Ipad 10th</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$390</p>
+        </div>
+        <div class="col-4">
+          <img src="image/ipadmini all warna.jpeg" />
+          <h4>Ipad mini</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$150</p>
+        </div>
+        </div>
+
+        <!-- accesoris products -->
+      <h2 class="tittle">accesoris products</h2>
+      <div class="row">
+    <div class="small-container">
+        <div class="col-4">
+          <img src="image/airpodsmax.jpeg" />
+          <h4>AirPods Max</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$568</p>
+        </div>
+        <div class="col-4">
+          <img src="image/airpodspro.jpeg" />
+          <h4>AirPods Pro</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$249</p>
+        </div>
+        <div class="col-4">
+          <img src="image/AirPods (3rd generation) - Apple.jpeg" />
+          <h4>AirPods(3rd generation)</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$180</p>
+        </div>
+        </div>
+
+       <div class="offer">
+        <div class="small-container">
+          <div class="row">
+            <div class="col-2">
+              <img src="image/Apple iPhone 15 Pro Max 512GB - Natural Titanium, MU7E3ZP_A Mobile Phone Handsets.jpeg" class="offer-img">
+            </div>
+            <div class="col-2">
+              <p style="text-align: left;">Product Exlusively on Apple Store</p><br>
+              <h2>Iphone 15 Pro Max</h2><br>
+              <small>This iPhone 15 pro max has a wider screen, 48 MP main: 24 mm, aperture ƒ/1.78, Ultra Wide 12 MP: 13 mm, aperture ƒ/2.2 and 120° field of view, 100% Focus Pixels, 2x 12 MP Telephoto (enabled by quad-pixel sensor): 48 mm, aperture ƒ/1.78, second-generation moving sensor optical image stabilization, 100% Focus Pixels, 3x 12 MP Telephoto: 77 mm, aperture ƒ/2.8, optical image stabilization, 3x optical zoom zoom in, 2x optical zoom out; 6x optical zoom range, Up to 15x digital zoom.</small><br>
+              <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+          </div>
+        </div>
+       </div>
+
+    </div>
+
+    <!-- Testtimonial   -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat distinctio beatae veritatis, ipsa soluta ipsam dolorum placeat amet impedit consequatur tenetur! Adipisci, minima. Explicabo hic voluptatum quas reprehenderit earum.</p>
+            <div class="ratting">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="image/user.jpeg" height="200px" width="150px">
+            <h3>Amelia</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat distinctio beatae veritatis, ipsa soluta ipsam dolorum placeat amet impedit consequatur tenetur! Adipisci, minima. Explicabo hic voluptatum quas reprehenderit earum.</p>
+            <div class="ratting">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="image/user1.jpeg" height="200px" width="150px">
+            <h3>Bima</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat distinctio beatae veritatis, ipsa soluta ipsam dolorum placeat amet impedit consequatur tenetur! Adipisci, minima. Explicabo hic voluptatum quas reprehenderit earum.</p>
+            <div class="ratting">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="image/user2.jpeg" height="200px" width="150px">
+            <h3>Rafly</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- payment -->
+    <div class="payment">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="image/paypal.jpg">
+          </div>
+          <div class="col-5">
+            <img src="image/bca.jpg">
+          </div>
+          <div class="col-5">
+            <img src="image/ocbc.png">
+          </div>
+          <div class="col-5">
+            <img src="image/mybank.jpg">
+          </div>
+          <div class="col-5">
+            <img src="image/dbs.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="apps-logo">
+              <img src="image/apps logo.jpg">
+            </div>
+          </div>
+          <div class="footer-col-6">
+            <img src="image/logoapple.jpg" width="50px" height="50px">
+            <p>feel the difference of holding a more premium phone.</p>
+          </div>
+          <div class="footer-col-6">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+            </ul>
+          </div>
+          <div class="footer-col-6">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Instagram</li>
+              <li>X</li>
+              <li>Facebook</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright" style="color: #8a8a8a;">Copyright 2024 - Apple Store</p>
+      </div>
+    </div>
+
+    </div>
+
+    <script>
+       function menutoggle() {
+            var menuItems = document.getElementById("menuItems");
+            // Periksa apakah menu sedang terbuka atau tertutup
+            if (menuItems.style.maxHeight == "0px") {
+                // Buka menu
+                menuItems.style.maxHeight = "200px"; // Sesuaikan tinggi menu yang diinginkan
+            } else {
+                // Tutup menu
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+  </body>
+</html>
